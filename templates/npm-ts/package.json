@@ -1,5 +1,5 @@
 {
-  "name": "npm-ts",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
   "description": "# Requirements * ... * ... * ...",
   "main": "./dist/index.js",
@@ -13,7 +13,7 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "mocha":"9.1.3"
+    "mocha": "9.1.3"
   },
   "author": "Ángel Cruz",
   "license": "ISC"
