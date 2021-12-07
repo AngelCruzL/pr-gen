@@ -8,7 +8,7 @@
 ## Install
 
 ```sh
-npm install -g pr-gen
+npm install -g ac-pr-gen
 ```
 
 ## Usage
