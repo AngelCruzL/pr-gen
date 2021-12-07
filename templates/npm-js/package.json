@@ -1,0 +1,17 @@
+{
+  "name": "npm-js",
+  "version": "1.0.0",
+  "description": "# Requirements * ... * ... * ...",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha":"9.1.3"
+  },
+  "author": "Ángel Cruz",
+  "license": "ISC"
+}
