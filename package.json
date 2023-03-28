@@ -4,6 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,7 +16,7 @@
   "dependencies": {
     "chalk": "4.1.2",
     "ejs": "3.1.9",
-    "inquirer": "9.1.5",
+    "inquirer": "8.2.5",
     "shelljs": "0.8.5"
   },
   "devDependencies": {

@@ -8,7 +8,7 @@ import chalk from 'chalk';
 
 import { renderTemplate } from './utils/templates';
 
-const TEMPLATE_OPTIONS = fs.readdirSync(path.join(__dirname, 'templates'));
+const TEMPLATE_OPTIONS = fs.readdirSync(path.join(__dirname, '..', 'templates'));
 
 const QUESTIONS = [
   {
@@ -33,7 +33,7 @@ const CURRENT_PROJECT_PATH = process.cwd();
 
 inquirer.prompt(QUESTIONS).then(answers => {
   const { template, projectName } = answers;
-  const templatePath = path.join(__dirname, 'templates', template);
+  const templatePath = path.join(__dirname, '..', 'templates', template);
   const projectPath = path.join(CURRENT_PROJECT_PATH, projectName);
 
   createProject(projectPath, projectName);
