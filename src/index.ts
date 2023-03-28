@@ -62,7 +62,7 @@ function postProcess(templatePath: any, projectPath: string, projectName: string
   if (isNode) {
     shell.cd(projectPath);
     console.log(chalk.green(`Installing dependencies for ${projectName}`));
-    const result = shell.exec('npm install');
+    const result = shell.exec('yarn');
     if (result.code != 0) return false;
   }
 }
